@@ -1,0 +1,121 @@
+:root{
+    --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+    --PaleBlue: hsl(243, 100%, 93%);
+    --GrayishBlue: hsl(229, 7%, 55%);
+    --DarkBlue: hsl(228, 56%, 26%);
+    --VeryDarkBlue: hsl(229, 57%, 11%);
+}
+body {
+    background-color: var(--VeryDarkBlue);
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+.bgimg {
+    margin-top: 370px;
+    position: absolute;
+}
+.container1 {
+    border-radius: 10px 100px 10px 10px;
+    background-color: var(--DarkBlue);
+    min-width: 350px;
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
+.icon {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    gap: 20px;
+    align-items: center;
+}
+.logo {
+   margin: 30px;
+}
+.icons {
+    background-color: var(--VeryDarkBlue);
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.docicon {
+    margin-top: 3px;
+}
+.foldericon {
+    margin-top: 5px;
+}
+.uploadicon {
+    margin-top: 7px;
+}
+.container2 {
+    background-color: var(--DarkBlue);
+    width: 450px;
+    position: absolute;
+    left: 680px;
+    top: 336px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.loading {
+    width: 100%;
+    height: 16px;
+    background-color: var(--VeryDarkBlue);
+    border-radius: 20px;
+    padding: 2px;
+}
+.fill {
+    width: 75%;
+    height: 12px;
+    margin-top: 1px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    padding: 1px;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: var(--PaleBlue);
+    margin: 1px;
+    margin-left: 96.5%;
+    border-radius: 6px;
+    
+}
+.memory {
+    display: flex;
+}
+.maxmemory {
+    margin-left: 80%;
+}
+.stat {
+    display: flex;
+    width: 130px;
+    height: 50px;
+    background-color: white;
+    color: var(--VeryDarkBlue);
+    position: absolute;
+    border-radius: 10px 10px 0px 10px;
+    left: 1010px;
+    top: 290px;
+    padding: 20px;
+    clip-path: polygon(50% 0%, 100% 0, 100% 100%, 85% 75%, 50% 75%, 0 75%, 0 0);
+   
+}
+.info {
+    display: flex;
+}
+.num {
+    font-size: 32px;
+    font-weight: 700;
+}
+.text {
+    font-size: 13px;
+    margin-top: 14px;
+    margin-left: 10px;
+}
+
